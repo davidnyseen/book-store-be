@@ -1,5 +1,4 @@
 {
-  "version": "0.0.1",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -10,31 +9,20 @@
     "watch": "./src/*",
     "ext": "js"
   },
-  "_moduleAliases": {
-    "@server": "dist/server",
-    "@api": "dist/server/api",
-    "@": "dist/"
-  },
 
   "devDependencies": {
-    "nodemon": "^2.0.22",
-    "prettier": "^2.8.8"
+    "nodemon": "^2.0.22"
   },
   "dependencies": {
-    "axios": "^1.4.0",
-    "bcrypt": "^5.1.0",
+    "axios": "^1.3.0",
+    "bcrypt": "^5.2.0",
+    "body-parser": "^1.20.3",
     "busboy": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "firebase-admin": "^11.11.0",
+    "dotenv": "^14.3.1",
+    "express": "^3.18.2",
     "joi": "^17.9.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.3.1",
-    "nodemailer": "^6.9.5",
-    "socket.io": "^4.7.2",
-    "stripe": "^12.16.0",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0",
-    "winston": "^3.11.0"
+    "socket.io": "^4.7.2"
   }
 }

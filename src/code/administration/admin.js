@@ -17,7 +17,6 @@ import { OrderServices, OrderStatus } from '../order';
 import NotificationService, { AllUsers, NotificationMessage, NotificationType } from '../notification';
 import { AppError } from '../errors';
 
-// Updated Interface Names
 export class AdminService {
   constructor(id, role) {
     this.adminId = id;
